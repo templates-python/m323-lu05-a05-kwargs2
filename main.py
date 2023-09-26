@@ -1,12 +1,17 @@
-def calculate():
-    """
-    calculates the total
-    :return: None
-    """
-    price = 15.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+def active_settings(**kwargs):
+        """
+        Returns a list of settings that are set to True.
+
+        Parameters:
+            **kwargs: Variable number of keyword arguments representing settings.
+
+        Returns:
+            list: A list containing the names of the settings that are set to True.
+        """
+        # TODO: Implementiere die Funktion
+        ...
 
 
 if __name__ == '__main__':
-    calculate()
+    # Teste deine Funktion
+    print(active_settings(wifi=True, bluetooth=False, gps=True))  # Erwarteter Output: "[wifi, gps]"
