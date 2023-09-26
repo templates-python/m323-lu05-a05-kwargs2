@@ -8,7 +8,6 @@ def active_settings(**kwargs):
         Returns:
             list: A list containing the names of the settings that are set to True.
         """
-        # TODO: Implementiere die Funktion
         active = [key for key, value in kwargs.items() if value is True]
         return active
 
