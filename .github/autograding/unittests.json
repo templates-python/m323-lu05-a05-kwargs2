@@ -1,0 +1,26 @@
+[
+  {
+    "name": "test_active_settings_no_args",
+    "function": "test_active_settings_no_args",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_active_settings_single_active_arg",
+    "function": "test_active_settings_single_active_arg",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_active_settings_multiple_args",
+    "function": "test_active_settings_multiple_args",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_active_settings_no_active_args",
+    "function": "test_active_settings_no_active_args",
+    "timeout": 10,
+    "points": 1
+  }
+]
