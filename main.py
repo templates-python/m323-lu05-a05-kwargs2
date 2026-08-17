@@ -1,3 +1,8 @@
+"""**kwargs zu Liste.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu05/aufgaben/kwargs2
+"""
+
 def active_settings(**kwargs):
     """
     Returns a list of settings that are set to True.
